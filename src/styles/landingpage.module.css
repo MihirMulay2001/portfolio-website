@@ -1,0 +1,101 @@
+.section {
+  height: 100vh;
+}
+.container {
+  padding: 2vw;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  position: relative;
+}
+.intro {
+  flex-grow: 10;
+  padding-top: 30vh;
+  font-size: 1.5rem;
+}
+.name {
+  font-family: "Lilita One", cursive;
+  font-size: 5.5vw;
+  margin: 10px 0 100px 50px;
+}
+.mypic {
+  flex-grow: 10;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.links a {
+  font-size: 30px;
+  margin: 45px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.links i {
+  color: rgb(255, 255, 255, 0.8);
+}
+.links i:hover {
+  cursor: pointer;
+  color: white;
+}
+.links a:hover::before {
+  font-size: 15px;
+  background-color: #cac8c8;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 5px 7px;
+  color: black;
+}
+.textcopied {
+  position: absolute;
+  background-color: rgb(223, 223, 223);
+  color: black;
+  bottom: 0;
+  right: 0;
+  padding: 10px 20px;
+  border-radius: 20px 0 0 20px;
+  display: none;
+}
+
+.linkedin:hover::before {
+  content: "https://www.linkedin.com/in/mihirmulay00/";
+}
+.github:hover::before {
+  content: "https://github.com/mihirmulay2001";
+}
+.medium:hover::before {
+  content: "https://medium.com/@mihirmulay3000";
+}
+.email:hover::before {
+  content: "mihirmulay3000@gmail.com";
+}
+.instagram:hover::before {
+  content: "https://www.instagram.com/the_lazy_geek16";
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 5vw;
+    height: 100%;
+  }
+  .intro {
+    padding-top: 10vh;
+  }
+  .name {
+    font-size: 6vh;
+  }
+  .links {
+    flex-direction: row;
+  }
+  .links a {
+    margin: 10px 20px;
+  }
+  .links i {
+    font-size: 25px;
+  }
+}

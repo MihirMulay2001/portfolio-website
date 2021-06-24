@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  z-index: 9;
+  top: 0;
+  height: 7vh;
+  width: 100%;
+  background-color: rgb(69, 68, 68);
+}
+.picture {
+  flex-grow: 1;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+.links a {
+  margin: 10px 10px;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 6vh;
+  }
+  .links {
+    width: 50%;
+  }
+}
