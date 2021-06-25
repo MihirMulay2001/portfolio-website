@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import styles from '../styles/landingpage.module.css'
+import mainpicture from '../assets/mainpicture.png'
 
 const copytoclipboard = async (event) =>{
     event.preventDefault();
@@ -31,7 +32,7 @@ export default function LandingPage() {
                     <div>Frontend web developer 👩‍💻, dog lover 🐶 and meme lord 🃏</div>
                 </div>
                 <div className={styles.mypic}>
-                    <img src= '' alt="my pic here" height="500px" width="500px"/>
+                    <img src= {mainpicture} alt="my pic here"/>
                 </div>
                 <div className={styles.links}>
                     <a className={styles.linkedin} href="https://www.linkedin.com/in/mihirmulay00/" target="_blank" rel="noreferrer noopener">
@@ -43,6 +44,7 @@ export default function LandingPage() {
                     <a className={styles.medium} href="https://medium.com/@mihirmulay3000" target="_blank" rel="noreferrer noopener">
                         <i className="fab fa-medium"></i>
                     </a>
+                    {/* eslint-disable-next-line */}
                     <a className={styles.email} href="#" onClick={copytoclipboard}>
                         <i className="fas fa-envelope"></i>
                     </a>
