@@ -11,10 +11,9 @@ export default function ProjectsPage() {
             <div>
                 Aliquip voluptate anim dolore mollit cupidatat pariatur voluptate quis nulla
                  minim aliqua non. Sunt aliquip officia exercitation anim do laborum do non anim. 
-                Anim sunt commodo labore fugiat nostrud incididunt sint cillum magna. 
-                Sit fugiat veniam quis sunt. 
-                Esse cillum consectetur in tempor enim id proident quis aute.
+                
             </div>
+            <div>Here are some of my best projects so far</div>
             <div className={styles.cardsectiondesktop}>
                 {data.projects.map((item,key)=><Card item = {item} key = {key}/>)}
             </div>
@@ -24,10 +23,18 @@ export default function ProjectsPage() {
                     autoPlay={false}
                     centerMode={true}
                     centerSlidePercentage={95}
-                    interval={30000}
+                    interval={99999}
                 >
                     {data.projects.map((item,key)=><Card item = {item} key = {key}/>)}
                 </Carousel>
+            </div>
+            <div>
+                <span>
+                    <a className={styles.github} href="https://github.com/mihirmulay2001" target="_blank" rel="noreferrer noopener">
+                        <i className="fab fa-github"></i>
+                        Find more on my Github
+                    </a>
+                </span>
             </div>
         </div>
     )

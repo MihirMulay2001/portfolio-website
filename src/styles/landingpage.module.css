@@ -2,10 +2,10 @@
   height: 100vh;
 }
 .container {
-  padding: 7vh 2vw;
+  padding: 0vh 2vw;
   display: flex;
   flex-direction: row;
-  height: 80%;
+  height: 89vh;
   position: relative;
 }
 .intro {
@@ -24,14 +24,14 @@
   align-items: center;
 }
 .mypic img {
-  width: 400px;
-  height: 400px;
+  width: 25vw;
+  height: 25vw;
 }
 .links {
   display: flex;
   flex-direction: column;
   position: absolute;
-  padding-top: 20vh;
+  padding-top: 16vh;
   top: 0;
   right: 0;
 }
@@ -51,10 +51,10 @@
 }
 
 .textcopied {
-  position: absolute;
-  background-color: rgb(223, 223, 223);
+  position: absolute !important;
+  background-color: #ffd84c;
   color: black;
-  bottom: 0;
+  top: 17%;
   right: 0;
   padding: 10px 20px;
   border-radius: 20px 0 0 20px;
@@ -93,17 +93,22 @@
   }
   .container {
     flex-direction: column-reverse;
-    padding: 6vh 7vw 6vh 7vw;
+    padding: 0vh 7vw;
     height: 100%;
   }
   .intro {
-    padding-top: 4vh;
+    padding-top: 3.5vh;
     line-height: 40px;
+    font-size: 23px;
   }
   .mypic {
     padding-top: 9vh;
     display: flex;
     justify-content: center;
+  }
+  .name {
+    margin-bottom: 70px;
+    margin-left: 20px;
   }
   .mypic img {
     width: 250px;
@@ -114,12 +119,13 @@
   }
   .links {
     flex-direction: row;
+    left: 0;
     width: 100%;
     justify-content: space-around;
-    padding-top: 7vh;
+    padding: 1vh 1vw;
   }
   .links a {
-    margin: 10px 20px;
+    margin: 0;
   }
   .links i {
     font-size: 25px;

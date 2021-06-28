@@ -53,10 +53,10 @@ export default function LandingPage() {
                     </a>
                     {/* <i className="fab fa-discord"></i> */}
                 </div>
-                <div className={styles.textcopied} id="textcopied">
-                    Text copied to clipboard!
-                </div>
             </div>
+             <div className={styles.textcopied} id="textcopied">
+                    Email id copied to clipboard!
+                </div>
         </div>
     )
 }

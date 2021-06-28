@@ -1,0 +1,37 @@
+.section {
+  height: 20vh;
+  background-size: cover;
+  display: flex;
+  padding: 3vh 2vw;
+}
+.section > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.section i {
+  color: black;
+  margin-right: 10px;
+}
+.section > div > div {
+  color: black;
+  margin: 2vh 0vw;
+  font-size: 17px;
+}
+.credits {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: flex-end !important;
+  flex-grow: 1;
+}
+.credits span {
+  color: black;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+.links > a > i {
+  font-size: 20px;
+}

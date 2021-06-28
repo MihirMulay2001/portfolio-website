@@ -1,14 +1,16 @@
 .section {
-  height: 100vh;
-  background-color: rgb(37, 37, 37);
-  padding: 5vh;
+  height: 95vh;
+  background-color: rgb(42, 42, 42);
+  padding: 3vh;
 }
 .section > div {
   text-align: center;
-  padding: 2vw 5vw 3vw 5vw;
+  padding: 4vh 5vw 3vh 5vw;
 }
 .title {
-  font-size: 35px;
+  font-size: 40px;
+  font-family: "DM Serif Text", serif;
+  color: #ffd84c;
 }
 .cardsectiondesktop {
   display: flex;
@@ -18,10 +20,25 @@
 .cardsectionmobile {
   display: none;
 }
+.github {
+  background-color: #ffd84c;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.github i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: black;
+}
 @media screen and (max-width: 768px) {
   .section {
-    height: 80vh;
-    padding: 10vh 3vw;
+    padding: 2vh 2vw;
+    height: 100vh;
+  }
+  .section > div {
+    margin: 1.6vh 0;
+    padding: 1vw 5vw 1vh 5vw;
   }
   .cardsectiondesktop {
     display: none;
