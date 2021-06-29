@@ -29,7 +29,7 @@ export default function LandingPage() {
                 <div className={styles.intro}>
                     <div>Hello there! I am</div>
                     <div className={styles.name}>Mihir Mulay</div>
-                    <div>Frontend web developer 👩‍💻, dog lover 🐶 and meme lord 🃏</div>
+                    <p>Frontend web developer 👩‍💻, dog lover 🐶 and meme lord 🃏</p>
                 </div>
                 <div className={styles.mypic}>
                     <img src= {mainpicture} alt="my pic here"/>

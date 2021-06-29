@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from '../styles/aboutmepage.module.css'
 import Footer from '../components/Footer'
+import stcicon from '../assets/mainpicture.png'
+import ymicon from '../assets/mainpicture.png'
+import Resume from '../assets/Resume.pdf'
+
 export default function AboutmePage() {
     return (
         <div id="aboutme" className={styles.section}>
@@ -22,35 +26,71 @@ export default function AboutmePage() {
                     </p>
                 </div>
             </div>
-            <div className={styles.academics}>
+                <hr className={styles.separator} />
+            <div className={styles.academics + ' ' + styles.desktop}>
                 <div className={`${styles.card} ${styles.stccard}`}>
                     <h3>Student Technical Community</h3>
-                    <img src="mypic" alt="stc" />
+                    <img src={stcicon} alt="stc icon here" />
                     <p>
                         I am proud to be a tech mentor of one of the finest student communities in India.
                     </p>
                 </div>
                 <div className={`${styles.card} ${styles.ymcard}`}>
                     <h3>Yuva Marathi</h3>
-                    <img src="mypic" alt="Yuva Marathi" />
+                    <img src={ymicon} alt="YM icon here" />
                     <p>
                         I am a core committee member at one of the best cultural clubs VIT has to offer.
                     </p>
                 </div>
                 <div className={styles.info}>
                     <p>
-                        lorem ipcndkcjnd wscjwdck jdcwdckwc kqs sxasmx saxxsx axxxksxska alksa 
-                    sxlaskx aasxslxk csdlkc cc ssdlckc scsc ccdlckc scldscs cscsclsdkcs cscdscldcm
-                    lorem ipcndkcjnd wscjwdck jdcwdckwc kqs sxasmx saxxsx axxxksxska alksa 
-                    sxlaskx aasxslxk csdlkc cc ssdlckc scsc ccdlckc scldscs cscsclsdkcs cscdscldcm
+                        I am a third year student at Vellore Institute of Technology, Vellore.
+                        I am studying Computer Science Engineering with specialisation in Internet of Things.
+                        I finish my 10th in ICSE board from Bangalore.
                     </p>
                     <p>
-                        lorem ipcndkcjnd wscjwdck jdcwdckwc kqs sxasmx saxxsx axxxksxska alksa 
-                    sxlaskx aasxslxk csdlkc cc ssdlckc scsc ccdlckc scldscs cscsclsdkcs cscdscldcm
-                    lorem ipcndkcjnd wscjwdck jdcwdckwc kqs sxasmx saxxsx axxxksxska alksa 
-                    sxlaskx aasxslxk csdlkc cc ssdlckc scsc ccdlckc scldscs cscsclsdkcs cscdscldcm
+                        I have been learning Web Development for the past 2 years.
+                        This unexpected pandemic gave me a lot of time to work on my programming skills.
+                        I am fluent in <b>HTML</b>, <b>JavaScript</b> and <b>CSS</b>.
+                        I have mastered React JS to a considerable extend and have done a number of projects in it. 
                     </p>
-                    <a href="../assets/mainpicture.png" download>
+                    <a href={Resume} download="Mihir's Resume">
+                        <button>
+                            <i className="fas fa-file-download"></i>
+                            Download resume
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div className={styles.academics + ' ' + styles.mobile}>
+                <div>
+                    <div>
+                        <img src={stcicon} alt="Stc icon here" />
+                        <span>
+                        I am proud to be a tech mentor of one of the finest student communities in India.
+                        </span>
+                    </div>
+                    <hr />
+                    <div>
+                        <img src = {ymicon} alt = "YM icon here" />
+                        <span>
+                        I am a core committee member at one of the best cultural clubs VIT has to offer.
+                        </span>
+                    </div>
+                </div>
+                <div className={styles.info}>
+                    <p>
+                        I am a third year student at Vellore Institute of Technology, Vellore.
+                        I am studying Computer Science Engineering with specialisation in Internet of Things.
+                        I finish my 10th in ICSE board from Bangalore.
+                    </p>
+                    <p>
+                        I have been learning Web Development for the past 2 years.
+                        This unexpected pandemic gave me a lot of time to work on my programming skills.
+                        I am fluent in <b>HTML</b>, <b>JavaScript</b> and <b>CSS</b>.
+                        I have mastered React JS to a considerable extend and have done a number of projects in it. 
+                    </p>
+                    <a href={Resume} download="Mihir's Resume">
                         <button>
                             <i className="fas fa-file-download"></i>
                             Download resume

@@ -1,5 +1,6 @@
 .section {
-  height: 100vh;
+  height: auto;
+  padding-bottom: 5vh;
 }
 .container {
   padding: 0vh 2vw;
@@ -9,17 +10,18 @@
   position: relative;
 }
 .intro {
-  flex-grow: 10;
   padding-top: 30vh;
-  font-size: 1.5rem;
+  font-size: 22px;
+  flex-grow: 3;
 }
 .name {
   font-family: "Lilita One", cursive;
   font-size: 5.5vw;
   margin: 10px 0 90px 50px;
+  color: #ffffff;
 }
 .mypic {
-  flex-grow: 10;
+  flex-grow: 4;
   display: flex;
   align-items: center;
 }
@@ -31,7 +33,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  padding-top: 16vh;
+  padding-top: 5vw;
   top: 0;
   right: 0;
 }
@@ -43,7 +45,7 @@
   align-items: center;
 }
 .links i {
-  color: rgba(255, 255, 255, 0.8);
+  color: #d9d9d9;
 }
 .links i:hover {
   cursor: pointer;
@@ -88,9 +90,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .section {
-    height: 95vh;
-  }
   .container {
     flex-direction: column-reverse;
     padding: 0vh 7vw;

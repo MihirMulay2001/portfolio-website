@@ -21,35 +21,44 @@
 }
 .info {
   width: 40%;
-  margin: 15vh auto;
+  margin: 8vh auto;
   font-size: 19px;
   text-align: center;
 }
+.info p {
+  margin: 50px 0;
+}
 .info > a > button {
   padding: 9px 12px;
-  color: black;
-  background-color: #ffd84c;
+  color: #dedede;
+  background-color: #191919;
   border-radius: 15px;
   font-size: 18px;
   margin-top: 10vh;
 }
 .info i {
-  color: black;
+  color: #dedede;
   margin-right: 10px;
 }
 .info > a {
   width: 100%;
   margin: auto;
 }
+.info button:hover {
+  cursor: pointer;
+}
 
 .card {
   position: absolute;
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 15vw;
   height: 40vh;
-  background-color: #272727;
-  padding: 2vw;
-  border-radius: 25px;
+  background-color: #191919;
+  padding: 3vw 1vw;
+  border-radius: 15px;
 }
 .card > h3,
 .card > p {
@@ -63,6 +72,14 @@
   top: 10%;
   right: 2%;
 }
+.separator {
+  width: 60%;
+  margin: 10vh auto;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #191919;
+  border-color: #191919;
+}
 @media screen and (min-width: 786px) {
   .desc {
     position: relative;
@@ -71,9 +88,14 @@
     overflow: hidden;
   }
   .desc > div {
-    padding: 8vh 3vw;
-    border-radius: 20px;
+    padding: 10vh 3vw;
+    border-radius: 15px;
     width: 28%;
+  }
+  .card img {
+    height: 120px;
+    width: 120px;
+    margin: 5vh 0;
   }
   .card1 {
     position: absolute;
@@ -92,6 +114,12 @@
     bottom: 0;
     left: 20%;
     background-color: #181818;
+  }
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
   }
 }
 
@@ -112,5 +140,36 @@
     bottom: 0;
     left: 0;
     text-align: center;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .info {
+    width: 100%;
+  }
+  .academics > div {
+    width: 80%;
+    background-color: #191919;
+    padding: 4vh;
+    margin: 5vh auto;
+    border-radius: 10px;
+  }
+  .academics > div > div {
+    margin: 25px 0;
+  }
+  .academics > div > p {
+    font-size: 17px;
+  }
+  .academics > div > div > img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+  }
+  .info > a > button {
+    margin-top: 0;
   }
 }

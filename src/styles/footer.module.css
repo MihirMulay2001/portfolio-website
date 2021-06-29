@@ -1,37 +1,63 @@
 .section {
   height: 20vh;
   background-size: cover;
-  display: flex;
-  padding: 3vh 2vw;
+  background-repeat: no-repeat;
+  color: #101010;
+  padding: 7vh 10vw;
+  position: relative;
 }
 .section > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  margin: 2vh 0;
 }
-.section i {
-  color: black;
+.section div div i {
   margin-right: 10px;
-}
-.section > div > div {
-  color: black;
-  margin: 2vh 0vw;
-  font-size: 17px;
+  font-size: 20px;
 }
 .credits {
+  position: absolute;
+  bottom: 1%;
+  left: 0%;
+  font-size: 14px;
+  z-index: 99;
+  width: 100%;
   display: flex;
-  flex-direction: row !important;
-  justify-content: center !important;
-  align-items: flex-end !important;
-  flex-grow: 1;
+  justify-content: center;
 }
-.credits span {
-  color: black;
+.credits i {
+  color: red;
+  font-size: 14px;
+  margin: 0 5px;
+}
+.info div {
+  margin: 2vh 0;
+  font-size: 15px;
 }
 .links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-direction: column;
 }
-.links > a > i {
-  font-size: 20px;
+.links div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 1vh 0;
+}
+@media screen and (min-width: 786px) {
+  .section {
+    position: relative;
+    height: 10vh;
+  }
+  .info {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    width: 50%;
+  }
+  .links {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    width: 18%;
+  }
 }

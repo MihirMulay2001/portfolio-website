@@ -9,9 +9,9 @@ export default function ProjectsPage() {
         <div id="projects" className = {styles.section}>
             <div className={styles.title}>Projects</div>
             <div>
-                Aliquip voluptate anim dolore mollit cupidatat pariatur voluptate quis nulla
-                 minim aliqua non. Sunt aliquip officia exercitation anim do laborum do non anim. 
-                
+                I often find myself trying to take a break from the busy schedule of college life.
+                Working on mini projects enables me to take my mind of studies and helps in improving my developement skills
+                all while also   fuelling my creativity.
             </div>
             <div>Here are some of my best projects so far</div>
             <div className={styles.cardsectiondesktop}>
