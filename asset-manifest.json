@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.05a81cf0.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.b4f9b300.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.b4f9b300.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.c5f71302.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.c5f71302.js.map",
+    "static/css/2.6b560088.chunk.css": "/portfolio-website/static/css/2.6b560088.chunk.css",
+    "static/js/2.78b82b62.chunk.js": "/portfolio-website/static/js/2.78b82b62.chunk.js",
+    "static/js/2.78b82b62.chunk.js.map": "/portfolio-website/static/js/2.78b82b62.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "static/css/2.6b560088.chunk.css.map": "/portfolio-website/static/css/2.6b560088.chunk.css.map",
+    "static/css/main.05a81cf0.chunk.css.map": "/portfolio-website/static/css/main.05a81cf0.chunk.css.map",
+    "static/js/2.78b82b62.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.78b82b62.chunk.js.LICENSE.txt",
+    "static/media/EcommerceWebsiteScreenshot.d1abf927.png": "/portfolio-website/static/media/EcommerceWebsiteScreenshot.d1abf927.png",
+    "static/media/MyPicture.71aea629.png": "/portfolio-website/static/media/MyPicture.71aea629.png",
+    "static/media/PortfolioWebsiteScreenshot.33ca8269.png": "/portfolio-website/static/media/PortfolioWebsiteScreenshot.33ca8269.png",
+    "static/media/Resume.0b6583c6.pdf": "/portfolio-website/static/media/Resume.0b6583c6.pdf",
+    "static/media/WeatherForecastScreenshot.5fd0a3b2.png": "/portfolio-website/static/media/WeatherForecastScreenshot.5fd0a3b2.png",
+    "static/media/curtaindesktop.c268fb6f.svg": "/portfolio-website/static/media/curtaindesktop.c268fb6f.svg",
+    "static/media/endcurtaindesktop.db5abed4.svg": "/portfolio-website/static/media/endcurtaindesktop.db5abed4.svg",
+    "static/media/hmuimg.e806e247.jpeg": "/portfolio-website/static/media/hmuimg.e806e247.jpeg",
+    "static/media/moviesimg.416abc2b.jpeg": "/portfolio-website/static/media/moviesimg.416abc2b.jpeg",
+    "static/media/readingimg.86550038.jpeg": "/portfolio-website/static/media/readingimg.86550038.jpeg",
+    "static/media/vacation1img.cfd1b9eb.jpeg": "/portfolio-website/static/media/vacation1img.cfd1b9eb.jpeg",
+    "static/media/vacation2img.d2b36195.jpeg": "/portfolio-website/static/media/vacation2img.d2b36195.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5f71302.js",
+    "static/css/2.6b560088.chunk.css",
+    "static/js/2.78b82b62.chunk.js",
+    "static/css/main.05a81cf0.chunk.css",
+    "static/js/main.b4f9b300.chunk.js"
+  ]
+}
