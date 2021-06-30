@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import styles from '../styles/landingpage.module.css'
-import mainpicture from '../assets/mainpicture.png'
+import mypicture from '../assets/MyPicture.png'
 
 const copytoclipboard = async (event) =>{
     event.preventDefault();
@@ -32,7 +32,7 @@ export default function LandingPage() {
                     <p>Frontend web developer 👩‍💻, dog lover 🐶 and meme lord 🃏</p>
                 </div>
                 <div className={styles.mypic}>
-                    <img src= {mainpicture} alt="my pic here"/>
+                    <img src= {mypicture} alt="my pic here"/>
                 </div>
                 <div className={styles.links}>
                     <a className={styles.linkedin} href="https://www.linkedin.com/in/mihirmulay00/" target="_blank" rel="noreferrer noopener">

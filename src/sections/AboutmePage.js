@@ -4,29 +4,17 @@ import Footer from '../components/Footer'
 import stcicon from '../assets/mainpicture.png'
 import ymicon from '../assets/mainpicture.png'
 import Resume from '../assets/Resume.pdf'
+import vacation1 from '../assets/vacation1img.jpeg'
+import vacation2 from '../assets/vacation2img.jpeg'
+import moviesimg from '../assets/moviesimg.jpeg'
+import hmu from '../assets/hmuimg.jpeg'
+import reading from '../assets/readingimg.jpeg'
+
 
 export default function AboutmePage() {
     return (
         <div id="aboutme" className={styles.section}>
             <div className={styles.title}>About me</div>
-            <div className={styles.desc}>
-                <div className={styles.card1}>
-                    <p>
-                        I love to travel to new places, eat different food and meet new people.
-                    </p>
-                </div>
-                <div className={styles.card2}>
-                    <p>
-                         I enjoy playing basketball, reading books and watching movies on netflix.
-                    </p>
-                </div>
-                <div className={styles.card3}>
-                    <p>
-                        I am a really outgoing person and love working with people on new and exciting projects.
-                    </p>
-                </div>
-            </div>
-                <hr className={styles.separator} />
             <div className={styles.academics + ' ' + styles.desktop}>
                 <div className={`${styles.card} ${styles.stccard}`}>
                     <h3>Student Technical Community</h3>
@@ -97,6 +85,23 @@ export default function AboutmePage() {
                         </button>
                     </a>
                 </div>
+            </div>
+                <hr className={styles.separator} />
+            <div className={styles.desc}>
+                <img className={styles.vacation1} src={vacation1} alt="vacation" />
+                <img className={styles.vacation2} src={vacation2} alt="vacation" />
+                <img className={styles.hmu} src={hmu} alt="vacation" />
+                <img className={styles.reading} src={reading} alt="vacation" />
+                <img className={styles.movies} src={moviesimg} alt="vacation" />
+                <p>
+                    I love to travel to new places, eat different food and meet new people.
+                </p>
+                <p>
+                        I enjoy playing basketball, reading books and watching movies on netflix.
+                </p>
+                <p>
+                    I am a really outgoing person and love working with people on new and exciting projects.
+                </p>
             </div>
             <Footer />
         </div>

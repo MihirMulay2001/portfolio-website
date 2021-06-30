@@ -1,5 +1,5 @@
 .section {
-  height: auto;
+  height: 90vh;
   padding-bottom: 5vh;
 }
 .container {
@@ -121,7 +121,7 @@
     left: 0;
     width: 100%;
     justify-content: space-around;
-    padding: 1vh 1vw;
+    padding: 3vh 1vw;
   }
   .links a {
     margin: 0;

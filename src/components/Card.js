@@ -2,11 +2,13 @@ import React from 'react'
 import styles from '../styles/card.module.css'
 import PortfolioWebsite from '../assets/PortfolioWebsiteScreenshot.png'
 import WeatherForecast from '../assets/WeatherForecastScreenshot.png'
+import EcommerceWebsite from '../assets/EcommerceWebsiteScreenshot.png'
 
 function choosescreenshot(img){
     switch(img){
         case 'PortfolioWebsite' : return PortfolioWebsite;
         case 'WeatherForecast' : return WeatherForecast;
+        case 'EcommerceWebsite' : return EcommerceWebsite;
         default: return 'https://source.unsplash.com/random'
     }
 }

@@ -1,5 +1,6 @@
 .section {
   height: 100%;
+  overflow-x: hidden;
 }
 .title {
   text-align: center;
@@ -9,10 +10,6 @@
   margin: 3vh 0 8vh 0;
 }
 
-.desc > div > p {
-  font-family: "Cantarell", sans-serif;
-  font-size: 19px;
-}
 .academics {
   margin: 8vh 0;
   height: 100%;
@@ -80,40 +77,30 @@
   background-color: #191919;
   border-color: #191919;
 }
+.desc {
+  width: 50%;
+  height: 100%;
+  padding: 5vh 4vw;
+  margin: 10vh auto;
+  background-color: #191919;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+}
+.desc > img {
+  position: absolute;
+  border-radius: 25px;
+}
+.desc > p {
+  font-family: "Cantarell", sans-serif;
+  font-size: 22px;
+  margin: 5vh 0;
+}
 @media screen and (min-width: 786px) {
-  .desc {
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    overflow: hidden;
-  }
-  .desc > div {
-    padding: 10vh 3vw;
-    border-radius: 15px;
-    width: 28%;
-  }
   .card img {
     height: 120px;
     width: 120px;
     margin: 5vh 0;
-  }
-  .card1 {
-    position: absolute;
-    top: 0;
-    left: -10px;
-    background-color: #181818;
-  }
-  .card2 {
-    position: absolute;
-    top: 25%;
-    right: -10px;
-    background-color: #181818;
-  }
-  .card3 {
-    position: absolute;
-    bottom: 0;
-    left: 20%;
-    background-color: #181818;
   }
   .desktop {
     display: block;
@@ -121,26 +108,39 @@
   .mobile {
     display: none;
   }
+  .vacation1 {
+    width: 170px;
+    height: 170px;
+    top: -10%;
+    left: -30%;
+  }
+  .vacation2 {
+    width: 120px;
+    height: 120px;
+    top: 60%;
+    left: -15%;
+  }
+  .hmu {
+    width: 100px;
+    height: 100px;
+    top: -10%;
+    right: -5%;
+  }
+  .reading {
+    width: 180px;
+    height: 180px;
+    top: 30%;
+    right: -40%;
+  }
+  .movies {
+    width: 130px;
+    height: 130px;
+    top: 80%;
+    right: -10%;
+  }
 }
 
 @media screen and (max-width: 786px) {
-  .desc {
-    height: 100%;
-  }
-  .desc > div {
-    position: relative;
-    width: 100%;
-    margin: 4vh 0;
-    height: 60vh;
-    background-color: #191919;
-  }
-  .desc > div > p {
-    padding: 10vw;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-  }
   .desktop {
     display: none;
   }
@@ -171,5 +171,41 @@
   }
   .info > a > button {
     margin-top: 0;
+  }
+  .desc {
+    width: 80%;
+  }
+  .desc > p {
+    font-size: 19px;
+  }
+  .desc > img {
+    border-radius: 10px;
+  }
+  .vacation1 {
+    width: 70px;
+    height: 70px;
+    top: -10%;
+    left: 10%;
+  }
+  .vacation2 {
+    display: none;
+  }
+  .hmu {
+    width: 100px;
+    height: 100px;
+    top: -10%;
+    right: -5%;
+  }
+  .reading {
+    width: 60px;
+    height: 60px;
+    top: 85%;
+    right: -5%;
+  }
+  .movies {
+    width: 100px;
+    height: 100px;
+    top: 90%;
+    left: 5%;
   }
 }

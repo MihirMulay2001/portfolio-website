@@ -9,7 +9,7 @@ const data = {
         {
             "title" : "E-commerce Website",
             "desc" : "A elegant, easy to use E-commerce website. Allows user to browse through a list of items and add them to a cart. and One of my hardest projects so far. Built using React and  Material UI.",
-            "img" : "https://source.unsplash.com/random",
+            "img" : "EcommerceWebsite",
             "url" : "https://www.google.com",
         },
         {
