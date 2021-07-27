@@ -1,8 +1,20 @@
 .light {
-  background-color: var(--bg-color-light);
-  color: var(--font-color-light);
+  --bg-color: #ffffff;
+  --font-color: #1b2430;
+  --theme-color: #f24931;
 }
 .dark {
-  background-color: var(--bg-color-dark);
-  color: var(--font-color-dark);
+  --bg-color: #191919;
+  --font-color: #e5e5e5;
+  --theme-color: #ffd84c;
+}
+#app {
+  padding: 0 10vw;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+@media screen and (max-width: 500px) {
+  #app {
+    padding: 0 8vw;
+  }
 }

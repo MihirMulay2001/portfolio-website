@@ -1,14 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-:root {
-  --bg-color-light: #ffffff;
-  --font-color-light: #1b2430;
-  --theme-color-light: #f24931;
-  --bg-color-dark: #191919;
-  --font-color-dark: #e5e5e5;
-  --theme-color-dark: #ffd84c;
-}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -24,6 +17,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 50px;
+  margin-bottom: 10vh;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -34,6 +28,8 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 21px;
+  margin-bottom: 4vh;
+  color: var(--theme-color);
 }
 h4 {
   font-family: "IBM Plex Mono", monospace;
@@ -44,14 +40,6 @@ p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 20px;
-}
-button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  padding: 5px;
-  display: flex;
-  place-items: center;
 }
 
 @media screen and (max-width: 500px) {

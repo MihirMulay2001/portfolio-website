@@ -9,7 +9,7 @@ const toggleTheme = (e,setTheme) => {
 
 export default function Navbar({theme, setTheme}) {
     return (
-        <div className={styles.navbar + ' ' + styles[theme]}>
+        <div className={theme + ' ' + styles.navbar + ' ' + styles[theme]}>
             <div 
             className={styles.toggleTheme} 
             onDoubleClick={(e)=>{toggleTheme(e,setTheme)}}
