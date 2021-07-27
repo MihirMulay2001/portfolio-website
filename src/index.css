@@ -1,18 +1,79 @@
 html {
   scroll-behavior: smooth;
 }
+:root {
+  --bg-color-light: #ffffff;
+  --font-color-light: #1b2430;
+  --theme-color-light: #f24931;
+  --bg-color-dark: #191919;
+  --font-color-dark: #e5e5e5;
+  --theme-color-dark: #ffd84c;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #101010;
-  color: #d9d9d9;
 }
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: inherit;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+}
+h4 {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 24px;
+}
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px;
+  display: flex;
+  place-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  h4 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
 }

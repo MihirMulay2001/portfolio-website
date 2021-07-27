@@ -1,66 +1,34 @@
-.section {
-  height: 90vh;
-  padding-bottom: 5vh;
-}
 .container {
-  padding: 0vh 2vw;
+  padding: 5vh 5vw;
   display: flex;
-  flex-direction: row;
-  height: 89vh;
-  position: relative;
+  height: 80vh;
+  justify-content: center;
 }
 .intro {
   padding-top: 30vh;
   font-size: 22px;
-  flex-grow: 3;
+  flex-grow: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
 }
 .name {
-  font-family: "Lilita One", cursive;
-  font-size: 5.5vw;
-  margin: 10px 0 90px 50px;
-  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  margin-bottom: 10vh;
+}
+.brief {
+  font-size: 25px;
 }
 .mypic {
-  flex-grow: 4;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .mypic img {
   width: 25vw;
   height: 25vw;
-}
-.links {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  padding-top: 5vw;
-  top: 0;
-  right: 0;
-}
-.links a {
-  font-size: 30px;
-  margin: 35px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.links i {
-  color: #d9d9d9;
-}
-.links i:hover {
-  cursor: pointer;
-  color: white;
-}
-
-.textcopied {
-  position: absolute !important;
-  background-color: #ffd84c;
-  color: black;
-  top: 17%;
-  right: 0;
-  padding: 10px 20px;
-  border-radius: 20px 0 0 20px;
-  display: none;
 }
 
 @media screen and (min-width: 768px) {
