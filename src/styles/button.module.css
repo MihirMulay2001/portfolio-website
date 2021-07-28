@@ -9,6 +9,7 @@
   cursor: pointer;
   width: auto;
   margin: 5vh 2vw 0 0;
+  border: var(--theme-color) solid 3px;
 }
 .button:hover {
   text-decoration: underline;
@@ -25,10 +26,15 @@
 .contained {
   background-color: var(--theme-color);
   color: var(--bg-color);
-  border: none;
+  border-color: var(--theme-color);
 }
 .outlined {
-  border-color: var(--theme-color);
   color: var(--theme-color);
   background-color: rgb(0, 0, 0, 0);
+}
+@media screen and (max-width: 500px) {
+  .button {
+    font-size: 15px;
+    margin-top: 2.5vh;
+  }
 }

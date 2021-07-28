@@ -9,12 +9,14 @@
   --theme-color: #ffd84c;
 }
 #app {
-  padding: 0 10vw;
   background-color: var(--bg-color);
   color: var(--font-color);
 }
+#content {
+  padding: 0 10vw;
+}
 @media screen and (max-width: 500px) {
-  #app {
+  #content {
     padding: 0 8vw;
   }
 }

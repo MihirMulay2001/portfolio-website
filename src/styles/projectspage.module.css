@@ -2,7 +2,7 @@
   padding: 15vh 0;
 }
 .section > p {
-  width: 50%;
+  width: 45%;
 }
 .subtitle {
   margin-top: 5vh;
@@ -10,12 +10,34 @@
 }
 .cardcontainer {
   display: flex;
-  margin: 30vh 0;
+  margin: 40vh 0;
   padding: 0 5vw;
+}
+.left {
+  flex-direction: row-reverse;
+}
+.right {
+  flex-direction: row;
 }
 .firsthalf {
   width: 50%;
 }
 .secondhalf {
   width: 50%;
+}
+@media screen and (max-width: 500px) {
+  .section {
+    padding-bottom: 0;
+  }
+  .cardcontainer {
+    flex-direction: column;
+    margin: 30vh 0;
+  }
+  .secondhalf,
+  .firsthalf {
+    width: 100%;
+  }
+  .section > p {
+    width: 100%;
+  }
 }

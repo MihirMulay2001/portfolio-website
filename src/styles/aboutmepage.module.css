@@ -16,3 +16,14 @@
 .hobbies p {
   font-size: 22px;
 }
+@media screen and (max-width: 500px) {
+  .section {
+    padding-top: 0;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  .firsthalf {
+    width: 100%;
+  }
+}

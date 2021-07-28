@@ -24,7 +24,7 @@ export default function Skillset({theme}) {
                     </Button>
                     <Button variant="outlined">
                         <a href="#projects" >
-                            <i class="fas fa-arrow-down"></i>
+                            <i className="fas fa-arrow-down"></i>
                             View my projects
                         </a>
                     </Button>

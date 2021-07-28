@@ -27,7 +27,7 @@ export default function Projects({theme}) {
                 <b>
                     <p className={styles.subtitle}>Here are three of my best projects</p>
                 </b>
-                {projects.map(project => <ProjectCard project={project} theme={theme}/>)}
+                {projects.map((project, key) => <ProjectCard key={key} project={project} theme={theme} position={ key%2 === 0 ? "left" : "right"}/>)}
             </div>
         </section>
         

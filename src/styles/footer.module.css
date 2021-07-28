@@ -1,64 +1,68 @@
 .section {
-  height: 30vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #101010;
-  padding: 5vh 10vw;
+  height: 85vh;
   position: relative;
-}
-.section > div {
-  margin: 2vh 0;
-}
-.section div div i {
-  margin-right: 10px;
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
   font-size: 22px;
 }
+.section a:hover {
+  text-decoration: underline;
+}
+.section > div {
+  margin: auto 10vw;
+}
+.light {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+}
+.dark {
+  background-color: var(--theme-color);
+  color: var(--bg-color);
+}
+.label {
+  font-size: 17px;
+}
+.details {
+  width: 40%;
+}
+.details > div {
+  margin: 10vh;
+}
+.links > ul > li {
+  margin: 7vh 0;
+}
+.links li i {
+  margin-right: 20px;
+}
 .credits {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   position: absolute;
-  bottom: 1%;
-  left: 0%;
-  font-size: 14px;
-  z-index: 99;
-  width: 100%;
+  bottom: 5%;
+  left: 0;
+  width: 97vw;
   display: flex;
+  margin: 0 !important;
   justify-content: center;
+  font-size: 19px;
 }
 .credits i {
   color: red;
-  font-size: 16px;
-  margin: 0 5px;
 }
-.info div {
-  margin: 3vh 0;
-  font-size: 15px;
-}
-.links {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 5vh !important;
-}
-.links > div {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  margin: 2vh 0;
-}
-@media screen and (min-width: 786px) {
+@media screen and (max-width: 500px) {
   .section {
-    position: relative;
-    height: 10vh;
+    flex-direction: column;
+    height: 100%;
+    font-size: 23px;
   }
-  .info {
-    position: absolute;
-    left: 5%;
-    bottom: 5%;
-    width: 50%;
+  .section > div {
+    margin: 1vh 10vw 10vh 10vw;
   }
-  .links {
-    position: absolute;
-    right: 5%;
-    bottom: 10%;
-    width: 18%;
+  .details {
+    width: 100%;
+  }
+  .details > div {
+    margin: 7vh 3vw;
   }
 }

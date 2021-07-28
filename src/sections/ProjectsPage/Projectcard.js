@@ -5,7 +5,7 @@ import Button from '../../components/Button'
 
 export default function Projectcard({project, theme, position="right"}) {
     return (
-        <div className={styles.cardcontainer}>
+        <div className={styles.cardcontainer + ' ' + styles[position]}>
             <div className={styles.firsthalf}>
                 <img src={project.img} alt="project"/>
             </div>
@@ -15,7 +15,7 @@ export default function Projectcard({project, theme, position="right"}) {
                 <Button variant="contained" theme={theme} icon="right">
                     <a href={project.url} target="_blank" rel="noreferrer noopener">
                         Visit website
-                        <i class="fas fa-arrow-down"></i>
+                        <i className="fas fa-arrow-right"></i>
                     </a>
                 </Button>
                 <Button variant="outlined" theme={theme}>
