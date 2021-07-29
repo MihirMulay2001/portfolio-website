@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../styles/aboutmepage.module.css'
 import Button from '../../components/Button'
+import skillsetimg from '../../assets/img/skillset.png'
 
 
 export default function Skillset({theme}) {
@@ -29,8 +30,8 @@ export default function Skillset({theme}) {
                         </a>
                     </Button>
                 </div>
-                <div className="secondhalf">
-                    <img href="" alt="skills" />
+                <div className={styles.secondhalf} >
+                    <img src={skillsetimg} alt="skills" />
                 </div>
             </div>
         </section>

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles/aboutmepage.module.css'
 import Button from '../../components/Button'
-
+import hobbiesimg from '../../assets/img/hobbies.png'
 
 export default function Hobbies({theme}) {
     return (
@@ -30,7 +30,9 @@ export default function Hobbies({theme}) {
                     </a>
                 </Button>
             </div>
-            <div className={styles.secondhalf}><img src="" alt="bitmojis" /></div>
+            <div className={styles.secondhalf}>
+                <img src={hobbiesimg} alt="bitmojis" />
+            </div>
         </div>
         </section>
     )

@@ -6,7 +6,7 @@
 }
 .intro {
   padding-top: 30vh;
-  font-size: 22px;
+  font-size: 21px;
   flex-grow: 1;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
@@ -15,11 +15,11 @@
 .name {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: 72px;
+  font-size: 69px;
   margin-bottom: 10vh;
 }
 .brief {
-  font-size: 25px;
+  font-size: 30px;
 }
 .mypic {
   display: flex;
@@ -27,8 +27,7 @@
   align-items: center;
 }
 .mypic img {
-  width: 25vw;
-  height: 25vw;
+  max-width: 20vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,8 +46,7 @@
     justify-content: center;
   }
   .mypic img {
-    width: 250px;
-    height: 250px;
+    max-width: 80%;
   }
   .name {
     font-size: 6vh;

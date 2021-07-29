@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../../styles/aboutmepage.module.css'
 import Button from '../../components/Button'
+import stcvitlogo from '../../assets/img/stcvitlogo.png'
+import ymvitlogo from '../../assets/img/ymvitlogo.png'
 
 
 export default function Achievements({theme}) {
@@ -23,8 +25,8 @@ export default function Achievements({theme}) {
                         </a>
                     </Button>
                 </div>
-                <div className="secondhalf">
-                    <img href="" alt="stc logo" />
+                <div className={styles.secondhalf}>
+                    <img src={stcvitlogo} alt="stc logo" />
                 </div>
             </div>
             <div className={theme + ' ' + styles.container}>
@@ -43,8 +45,8 @@ export default function Achievements({theme}) {
                         </a>
                     </Button>
                 </div>
-                <div className="secondhalf">
-                    <img href="" alt="skills" />
+                <div className={styles.secondhalf}>
+                    <img src={ymvitlogo} alt="skills" />
                 </div>
             </div>
         </section>

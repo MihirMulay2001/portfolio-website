@@ -4,13 +4,30 @@
 }
 .container {
   display: flex;
-  margin: 10vh 0 20vh 0;
+  margin: 10vh 0vw 20vh 0;
+  align-items: center;
 }
 .firsthalf {
   width: 45%;
 }
+.firsthalf_award {
+  width: 55%;
+}
+.secondhalf_award {
+  margin-left: 5vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 .secondhalf {
   flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.secondhalf img {
+  max-width: 27vw;
 }
 .aboutme p,
 .hobbies p {
@@ -22,8 +39,22 @@
   }
   .container {
     flex-direction: column-reverse;
+    margin: 7vh 0;
   }
   .firsthalf {
     width: 100%;
+  }
+  .secondhalf {
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  .secondhalf img {
+    max-width: 80%;
+  }
+  .firsthalf_award {
+    width: 100%;
+  }
+  .secondhalf_award {
+    margin-bottom: 7vh;
   }
 }

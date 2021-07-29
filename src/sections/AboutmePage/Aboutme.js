@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../../styles/aboutmepage.module.css'
 import Button from '../../components/Button'
+import mypicturelight from '../../assets/img/mypicture-light.png'
+import mypicturedark from '../../assets/img/mypicture-dark.png'
 
 
 export default function Aboutme({theme}) {
@@ -25,7 +27,9 @@ export default function Aboutme({theme}) {
                     </a>
                 </Button>
             </div>
-            <div className={styles.secondhalf}><img src="" alt="about me" /></div>
+            <div className={styles.secondhalf}>
+                <img src={theme === 'light' ? mypicturelight : mypicturedark} alt="about me" />
+            </div>
         </div>
         </>
     )

@@ -6,24 +6,46 @@
 }
 .subtitle {
   margin-top: 5vh;
-  font-weight: 600;
+  font-weight: 400;
 }
 .cardcontainer {
   display: flex;
   margin: 40vh 0;
-  padding: 0 5vw;
+  align-items: flex-end;
 }
 .left {
   flex-direction: row-reverse;
 }
+
 .right {
   flex-direction: row;
 }
+
 .firsthalf {
   width: 50%;
+  display: flex;
+}
+.firsthalf img {
+  max-width: 80%;
 }
 .secondhalf {
   width: 50%;
+}
+.techStack {
+  font-family: "IBM Plex Mono", monospace;
+  margin-top: 5vh;
+  font-size: 14px;
+}
+.tech {
+  margin-right: 20px;
+}
+@media screen and (min-width: 500px) {
+  .left .firsthalf {
+    justify-content: flex-end;
+  }
+  .right .firsthalf {
+    justify-content: flex-start;
+  }
 }
 @media screen and (max-width: 500px) {
   .section {
@@ -31,13 +53,22 @@
   }
   .cardcontainer {
     flex-direction: column;
-    margin: 30vh 0;
+    margin: 20vh 0;
+    justify-content: flex-start !important;
+    align-items: flex-start;
   }
   .secondhalf,
   .firsthalf {
     width: 100%;
+    justify-content: flex-start;
+  }
+  .firsthalf img {
+    max-width: 100%;
   }
   .section > p {
     width: 100%;
+  }
+  .cardcontainer > div {
+    margin-bottom: 10vh;
   }
 }

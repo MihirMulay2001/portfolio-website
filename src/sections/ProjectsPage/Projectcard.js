@@ -1,17 +1,29 @@
 import React from 'react'
 import styles from '../../styles/projectspage.module.css'
 import Button from '../../components/Button'
+import ecommercewebsite from '../../assets/img/ecommerce.png'
+import portfoliowebsite from '../../assets/img/portfolio.png'
+import weatherwebsite from '../../assets/img/weatherforecast.png'
+
+const projectImg = {
+    "Portfolio Website": portfoliowebsite,
+    "E-commerce Website" : ecommercewebsite,
+    "Weather forecast" : weatherwebsite
+}
 
 
 export default function Projectcard({project, theme, position="right"}) {
     return (
         <div className={styles.cardcontainer + ' ' + styles[position]}>
             <div className={styles.firsthalf}>
-                <img src={project.img} alt="project"/>
+                <img src={projectImg[project.title]} alt="project"/>
             </div>
             <div className={styles.secondhalf}>
                 <h3>{project.title}</h3>
                 <p>{project.desc}</p>
+                <p className={styles.techStack}>
+                    {project.techStack.map((tech,key) => <span key={key} className={styles.tech}>{tech}</span>)}
+                </p>
                 <Button variant="contained" theme={theme} icon="right">
                     <a href={project.url} target="_blank" rel="noreferrer noopener">
                         Visit website
