@@ -2,26 +2,31 @@ const data = {
     "projects" :[
         {
             "title" : "Portfolio Website",
-            "desc" : "This is my latest project  which is also undoubtedly my best. Using minimalistic design approach I made this portfolio website in under 5 days. It was made with react",
+            "desc" : "My newest and most important project so far. I have managed to express myself through this clean and minimilistic website. I designed this website myself on figma. I feel like every developer should have their own website and I am super proud of the way mine turned out to be. I have written clean code that can be easily be modified to accomodate all the achievements that are yet to come.",
             "img" : "PortfolioWebsite",
-            "url" : "https://www.google.com",
+            "urlSource" : "https://github.com/MihirMulay2001/portfolio-website",
+            "urlWebsite" :"https://mihirmulay2001.github.io/portfolio-website/",
             "techStack" : ["ReactJS", "Framer motion"]
         },
         {
-            "title" : "E-commerce Website",
-            "desc" : "A elegant, easy to use E-commerce website. Allows user to browse through a list of items and add them to a cart. and One of my hardest projects so far. Built using React and  Material UI.",
-            "img" : "EcommerceWebsite",
-            "url" : "https://www.google.com",
-            "techStack" :["ReactJS" , "Material UI"]
-        },
-        {
             "title" : "Weather forecast",
-            "desc" : " A beautiful website that gives the user a weather forecast for the day and for the coming week. It automatically senses user's location and gives the weather based on latitude and longitude. One of the first projects that I made using react and bootstrap.",
+            "desc" : " My very first React project. It is a simple and easy to use weather app that takes in the user’s location and gives the weather for that day and for the following week. I made a minimalistic and user friendly design by using bootstrap to design the website.",
             "img" : "WeatherForecast",
-            "url" : "https://mihirmulay2001.github.io/My-Weather-App/",
+            "urlWebsite" : "https://mihirmulay2001.github.io/My-Weather-App/",
+            "urlSource" : "https://github.com/MihirMulay2001/My-Weather-App",
             "techStack" : ["ReactJS" , "Bootstrap"]
         }
     ]
 }
 
 export default data;
+
+/*
+{
+            "title" : "E-commerce Website",
+            "desc" : "A elegant, easy to use E-commerce website. Allows user to browse through a list of items and add them to a cart. and One of my hardest projects so far. Built using React and  Material UI.",
+            "img" : "EcommerceWebsite",
+            "url" : "https://www.google.com",
+            "techStack" :["ReactJS" , "Material UI"]
+        },
+        */

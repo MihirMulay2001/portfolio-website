@@ -11,12 +11,7 @@ export default function Projects({theme}) {
             <div className={styles.section}>
                 <h1>Projects</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Cras blandit cursus at euismod pellentesque vel commodo. 
-                    Amet vitae elementum hendrerit ultricies senectus aenean id.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Cras blandit cursus at euismod pellentesque vel commodo. 
-                    Amet vitae elementum hendrerit ultricies senectus aenean id.
+                    In the short two years since I learned software development I have managed to make a number of different projects. I find working on projects as the best way to take my mind off the hectic college life.
                 </p>
                 <Button variant="outlined">
                     <a href="https://github.com/mihirmulay2001" target="_blank" rel="noreferrer noopener">
@@ -25,7 +20,7 @@ export default function Projects({theme}) {
                     </a>
                 </Button>
                 <b>
-                    <p className={styles.subtitle}>Here are three of my best projects</p>
+                    <p className={styles.subtitle}>Here are few of my best projects</p>
                 </b>
                 {projects.map((project, key) => <ProjectCard key={key} project={project} theme={theme} position={ key%2 === 0 ? "left" : "right"}/>)}
             </div>

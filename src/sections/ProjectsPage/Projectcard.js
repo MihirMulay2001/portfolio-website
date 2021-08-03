@@ -25,13 +25,13 @@ export default function Projectcard({project, theme, position="right"}) {
                     {project.techStack.map((tech,key) => <span key={key} className={styles.tech}>{tech}</span>)}
                 </p>
                 <Button variant="contained" theme={theme} icon="right">
-                    <a href={project.url} target="_blank" rel="noreferrer noopener">
+                    <a href={project.urlWebsite} target="_blank" rel="noreferrer noopener">
                         Visit website
                         <i className="fas fa-arrow-right"></i>
                     </a>
                 </Button>
                 <Button variant="outlined" theme={theme}>
-                    <a href={project.url} target="_blank" rel="noreferrer noopener">
+                    <a href={project.urlSource} target="_blank" rel="noreferrer noopener">
                         <i className="fab fa-github"></i>
                         View source code
                     </a>

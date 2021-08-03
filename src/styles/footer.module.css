@@ -24,7 +24,7 @@
   font-size: 17px;
 }
 .details {
-  width: 40%;
+  width: 45%;
 }
 .details > div {
   margin: 10vh;
@@ -58,9 +58,6 @@
   }
   .section > div {
     margin: 1vh 10vw 10vh 10vw;
-  }
-  .details {
-    width: 100%;
   }
   .details > div {
     margin: 7vh 3vw;

@@ -8,16 +8,22 @@ import ymvitlogo from '../../assets/img/ymvitlogo.png'
 export default function Achievements({theme}) {
     return (
         <section id="achievements">
-            <h2>Achievements and experience</h2>
+            <div className={styles.section}>
+                <h2>Achievements and experience</h2>
             <div className={theme + ' ' + styles.container}>
                 <div className={styles.firsthalf}>
                     <h3>Student Technical Community</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Pharetra ullamcorper eget elementum interdum felis in ut. 
-                        Tellus nunc vestibulum amet fusce tortor facilisis mauris id fames. 
-                        Venenatis at mauris fermentum tellus vitae scelerisque leo velit pellentesque. 
-                        Et dui mattis quis sit iaculis tincidunt a.
+                        I am currently a Tech Mentor at STC VIT. 
+                        This club has taught me more than any course 
+                        or book has. I love working with this group
+                         of brilliant and like minded people on 
+                         complex projects. Mentoring and guiding 
+                         juniors into the world of dev has been an 
+                         amazing experience and it  also helped me to 
+                         then my fundamentals. The technical events that we 
+                         frequently host gave me an insight into the process 
+                         goes behind planning an event. 
                     </p>
                     <Button variant="outlined">
                         <a href="https://www.stcvit.in" target="_blank" rel="noreferrer noopener">
@@ -33,11 +39,10 @@ export default function Achievements({theme}) {
                 <div className={styles.firsthalf}>
                     <h3>Yuva marathi</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Pharetra ullamcorper eget elementum interdum felis in ut. 
-                        Tellus nunc vestibulum amet fusce tortor facilisis mauris id fames. 
-                        Venenatis at mauris fermentum tellus vitae scelerisque leo velit pellentesque. 
-                        Et dui mattis quis sit iaculis tincidunt a.
+                        This club taught me everything I know about conducting an event.
+                        From finding out innovative ways to publicize an event, to getting sponsors,
+                        all necessary skills are developed when one is part of this club. This club felt like 
+                        family and helped me improve my communication skills. 
                     </p>
                     <Button variant="outlined">
                         <a href="https://www.linkedin.com/company/yuva-marathi/about/" target="_blank" rel="noreferrer noopener">
@@ -49,6 +54,8 @@ export default function Achievements({theme}) {
                     <img src={ymvitlogo} alt="skills" />
                 </div>
             </div>
+            </div>
+            
         </section>
     )
 }

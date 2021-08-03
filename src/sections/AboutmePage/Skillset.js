@@ -7,15 +7,17 @@ import skillsetimg from '../../assets/img/skillset.png'
 export default function Skillset({theme}) {
     return (
         <section id="skillset">
-            <h2>Skillset</h2>
+            <div className={styles.section}>
+                <h2>Skillset</h2>
             <div className={styles.container}>
                 <div className={styles.firsthalf}>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Pharetra ullamcorper eget elementum interdum felis in ut. 
-                        Tellus nunc vestibulum amet fusce tortor facilisis mauris id fames. 
-                        Venenatis at mauris fermentum tellus vitae scelerisque leo velit pellentesque. 
-                        Et dui mattis quis sit iaculis tincidunt a.
+                        I specialize in frontend web development. 
+                        I have strong fundamental knowledge in html , css and javascript. 
+                        I am an expert at and have made a number of projects in it. 
+                        I also know how to use state management tools like redux and have a basic knowledge of firebase. 
+                        I am familiar with the basics of web design and have designed a few of my projects on designing tools like figma. 
+                        Material UI is my go to UI framework for its clean and minimilistic approach.
                     </p>
                     <Button variant="outlined">
                         <a href="https://github.com/mihirmulay2001" target="_blank" rel="noreferrer noopener">
@@ -34,6 +36,8 @@ export default function Skillset({theme}) {
                     <img src={skillsetimg} alt="skills" />
                 </div>
             </div>
+            </div>
+            
         </section>
         
     )

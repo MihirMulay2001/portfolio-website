@@ -1,5 +1,5 @@
 .section {
-  padding: 15vh 0;
+  padding: 13vh 0;
 }
 .section > p {
   width: 45%;
@@ -10,7 +10,7 @@
 }
 .cardcontainer {
   display: flex;
-  margin: 40vh 0;
+  margin: 30vh 0;
   align-items: flex-end;
 }
 .left {

@@ -4,14 +4,15 @@
 }
 .container {
   display: flex;
-  margin: 10vh 0vw 20vh 0;
+  margin: 7vh 0vw 20vh 0;
   align-items: center;
+  width: 100%;
 }
 .firsthalf {
   width: 45%;
 }
 .firsthalf_award {
-  width: 55%;
+  width: 100%;
 }
 .secondhalf_award {
   margin-left: 5vw;
@@ -27,7 +28,8 @@
   align-items: flex-start;
 }
 .secondhalf img {
-  max-width: 27vw;
+  max-width: 25vw;
+  max-height: 40vh;
 }
 .aboutme p,
 .hobbies p {

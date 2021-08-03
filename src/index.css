@@ -41,6 +41,17 @@ p {
   font-weight: 400;
   font-size: 20px;
 }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 100%;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 4px;
+}
 @media screen and (max-width: 500px) {
   h1 {
     font-weight: 700;

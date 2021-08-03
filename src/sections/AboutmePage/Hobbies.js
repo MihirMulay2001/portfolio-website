@@ -10,14 +10,7 @@ export default function Hobbies({theme}) {
             <div className={styles.hobbies + ' ' + styles.container}>
             <div className={styles.firsthalf}>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Pharetra ullamcorper eget elementum interdum felis in ut. 
-                    Tellus nunc vestibulum amet fusce tortor facilisis mauris id fames. 
-                    Venenatis at mauris fermentum tellus vitae scelerisque leo velit pellentesque. 
-                    Et dui mattis quis sit iaculis tincidunt a.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Pharetra ullamcorper eget elementum interdum felis in ut. 
-                    Tellus nunc vestibulum amet fusce tortor facilisis mauris id fames.
+                    Taking time off for yourself is essential for your physical and mental health. I enjoy a number of hobbies myself. Sci fi and horror books were always my favourite ever since I was a kid. I am a major tech enthusiast and am always excited to hear about new and cutting edge tech. I listen to a number of podcasts like waveform, vergecast and distractible and also love watching sci-fi TV series . I love travelling to new places,  interacting with people and eating different food.
                 </p>
                 <Button theme={theme} variant="outlined">
                     <i className="fab fa-discord"></i>
