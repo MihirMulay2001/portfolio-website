@@ -13,11 +13,20 @@ export default function Hobbies({theme}) {
                 <div className={styles.hobbies + ' ' + styles.container}>
                     <div className={styles.firsthalf}>
                         <p>
-                            Taking time off for yourself is essential for your physical and mental health. I enjoy a number of hobbies myself. Sci fi and horror books were always my favourite ever since I was a kid. I am a major tech enthusiast and am always excited to hear about new and cutting edge tech. I listen to a number of podcasts like waveform, vergecast and distractible and also love watching sci-fi TV series . I love travelling to new places,  interacting with people and eating different food.
+                            Taking time off for yourself is essential for your physical and mental health. 
+                            I enjoy a number of hobbies myself. <br/> I am a major tech enthusiast. I am always excited to hear about new 
+                            and cutting edge tech and enjoy listening to a number of podcasts like waveform, devcast and vergecast.
+                            Sci fi and horror books were always my favourite ever since I was a kid. 
+                            I have taken up a hobby of writing articles to keep me entertained.
+                            I also enjoy watching sci-fi and action TV shows. 
+                            I love travelling to new places,eating different food and interacting with new people.<br/>
+                            I am open to having deep 12am conversations about literally any topic. Drop into my discord and say hi!
                         </p>
                         <Button theme={theme} variant="outlined">
-                            <i className="fab fa-discord"></i>
-                            Join my discord
+                            <a href="https://discord.gg/namKAkHeMW" target="_blank" rel="noreferrer noopener">
+                                <i className="fab fa-discord"></i>
+                                Join my discord server
+                            </a>
                         </Button>
                         <Button theme={theme} variant="outlined">
                             <a  href="https://medium.com/@mihirmulay3000" target="_blank" rel="noreferrer noopener">

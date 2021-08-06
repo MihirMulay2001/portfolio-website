@@ -15,12 +15,14 @@ export default function Skillset({theme}) {
                 <div className={styles.container}>
                     <div className={styles.firsthalf}>
                         <p>
-                            I specialize in frontend web development. 
-                            I have strong fundamental knowledge in html , css and javascript. 
-                            I am an expert at and have made a number of projects in it. 
-                            I also know how to use state management tools like redux and have a basic knowledge of firebase. 
-                            I am familiar with the basics of web design and have designed a few of my projects on designing tools like figma. 
-                            Material UI is my go to UI framework for its clean and minimilistic approach.
+                            I specialize in frontend web development.<br />
+                            I have strong fundamental knowledge in html , css and javascript. <br/>
+                            I am an expert at React and have made a number of projects in it. <br/>
+                            I also know how to use state management tools like redux, UI frameworks like material UI and 
+                            have a general knowledge of services like firebase. <br/>
+                            I am familiar with the basics of web design and have designed a few of my projects on designing tools like figma. <br />
+                            I understand the importance of maintaining code and always make it a habit to write clean, concise
+                            and programmer friendly code.
                         </p>
                         <Button variant="outlined">
                             <a href="https://github.com/mihirmulay2001" target="_blank" rel="noreferrer noopener">
