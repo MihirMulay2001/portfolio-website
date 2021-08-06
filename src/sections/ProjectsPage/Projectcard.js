@@ -4,6 +4,8 @@ import Button from '../../components/Button'
 import ecommercewebsite from '../../assets/img/ecommerce.png'
 import portfoliowebsite from '../../assets/img/portfolio.png'
 import weatherwebsite from '../../assets/img/weatherforecast.png'
+import FadeInWhenVisible from '../../components/Animation_fadein'
+
 
 const projectImg = {
     "Portfolio Website": portfoliowebsite,
@@ -19,6 +21,7 @@ export default function Projectcard({project, theme, position="right"}) {
                 <img src={projectImg[project.title]} alt="project"/>
             </div>
             <div className={styles.secondhalf}>
+                <FadeInWhenVisible>
                 <h3>{project.title}</h3>
                 <p>{project.desc}</p>
                 <p className={styles.techStack}>
@@ -36,6 +39,7 @@ export default function Projectcard({project, theme, position="right"}) {
                         View source code
                     </a>
                 </Button>
+                </FadeInWhenVisible>
             </div>
         </div>
     )

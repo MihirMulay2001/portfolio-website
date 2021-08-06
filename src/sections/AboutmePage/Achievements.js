@@ -3,6 +3,8 @@ import styles from '../../styles/aboutmepage.module.css'
 import Button from '../../components/Button'
 import stcvitlogo from '../../assets/img/stcvitlogo.png'
 import ymvitlogo from '../../assets/img/ymvitlogo.png'
+import FadeInWhenVisible from '../../components/Animation_fadein'
+
 
 
 export default function Achievements({theme}) {
@@ -10,6 +12,7 @@ export default function Achievements({theme}) {
         <section id="achievements">
             <div className={styles.section}>
                 <h2>Achievements and experience</h2>
+            <FadeInWhenVisible>
             <div className={theme + ' ' + styles.container}>
                 <div className={styles.firsthalf}>
                     <h3>Student Technical Community</h3>
@@ -35,6 +38,8 @@ export default function Achievements({theme}) {
                     <img src={stcvitlogo} alt="stc logo" />
                 </div>
             </div>
+            </FadeInWhenVisible>
+            <FadeInWhenVisible>
             <div className={theme + ' ' + styles.container}>
                 <div className={styles.firsthalf}>
                     <h3>Yuva marathi</h3>
@@ -54,6 +59,7 @@ export default function Achievements({theme}) {
                     <img src={ymvitlogo} alt="skills" />
                 </div>
             </div>
+            </FadeInWhenVisible>
             </div>
             
         </section>

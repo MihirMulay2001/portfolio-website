@@ -29,6 +29,9 @@
 .details > div {
   margin: 10vh;
 }
+.dark .links > h3 {
+  color: var(--bg-color);
+}
 .links > ul > li {
   margin: 7vh 0;
 }

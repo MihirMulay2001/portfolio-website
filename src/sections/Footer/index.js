@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../styles/footer.module.css'
+import Animation from '../../components/Animation_slidein'
 export default function Footer({theme}) {
     return (
         <div className={styles.section + ' ' + styles[theme]}>
@@ -16,6 +17,7 @@ export default function Footer({theme}) {
                     Bengaluru, Karnataka, India.
                 </div>
             </div>
+            <Animation>
             <div className={styles.links}>
                 <h3>connect with me on</h3>
                 <ul type="none">
@@ -46,6 +48,7 @@ export default function Footer({theme}) {
                     </li>
                 </ul>
             </div>
+            </Animation>
         </div>
     )
 }
