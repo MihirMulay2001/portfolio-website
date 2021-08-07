@@ -1,6 +1,6 @@
 {
   "name": "mihirs-portfolio-website",
-  "homepage": "http://mihirmulay2001.github.io/portfolio-website",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
