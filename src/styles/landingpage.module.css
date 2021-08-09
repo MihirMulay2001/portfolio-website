@@ -34,14 +34,15 @@
   .container {
     flex-direction: column-reverse;
     justify-content: flex-end;
-    height: 90vh;
+    height: 80vh;
+    padding-bottom: 0;
   }
   .intro {
     padding-top: 10vh;
     font-size: 25px;
   }
   .mypic {
-    padding-top: 9vh;
+    padding-top: 6vh;
     display: flex;
     justify-content: center;
   }
@@ -50,5 +51,9 @@
   }
   .name {
     font-size: 6vh;
+    margin-bottom: 6vh;
+  }
+  .brief {
+    font-size: 23px;
   }
 }

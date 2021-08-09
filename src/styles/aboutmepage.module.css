@@ -38,7 +38,7 @@
 @media screen and (max-width: 500px) {
   .container {
     flex-direction: column-reverse;
-    margin: 7vh 0;
+    margin: 10vh 0;
   }
   .firsthalf {
     width: 100%;
@@ -55,5 +55,11 @@
   }
   .secondhalf_award {
     margin-bottom: 7vh;
+  }
+  .secondhalf_award img {
+    height: 30vh;
+  }
+  .hobbies p {
+    font-size: 19px;
   }
 }

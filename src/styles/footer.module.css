@@ -58,6 +58,7 @@
     flex-direction: column;
     height: 100%;
     font-size: 23px;
+    overflow-x: hidden;
   }
   .section > div {
     margin: 1vh 10vw 10vh 10vw;
