@@ -2,15 +2,23 @@ const data = {
     "projects" :[
         {
             "title" : "Portfolio Website",
-            "desc" : "My newest and most important project so far. I have managed to express myself through this clean and minimilistic website. I designed this website myself on figma. I feel like every developer should have their own website and I am super proud of the way mine turned out to be. I have written clean code that can be easily be modified to accomodate all the achievements that are yet to come.",
+            "desc" : "My newest and most important project so far. I built this clean and minimilistic website to tell the world a little bit about myself. I designed this website by myself on figma. I have written clean code that can be easily be modified to accomodate all the achievements that are yet to come.",
             "img" : "PortfolioWebsite",
             "urlSource" : "https://github.com/MihirMulay2001/portfolio-website",
             "urlWebsite" :"https://mihirmulay2001.github.io/portfolio-website/",
             "techStack" : ["ReactJS", "Framer motion"]
         },
         {
+            "title" : "Todo App",
+            "desc" : "A beautiful and easy to use ToDo app that helps you organize your tasks efficiently and be more productive. It groups tasks into 2 sections - pending tasks and completed tasks.",
+            "img" : "TodoApp",
+            "urlWebsite" : "https://mihirmulay2001.github.io/todo-app/",
+            "urlSource" : "https://github.com/MihirMulay2001/todo-app",
+            "techStack" : ["ReactJS" , "Bootstrap"]
+        },
+        {
             "title" : "Weather forecast",
-            "desc" : " My very first React project. It is a simple and easy to use weather app that takes in the user’s location and gives the weather for that day and for the following week. I made a minimalistic and user friendly design by using bootstrap to design the website.",
+            "desc" : " My very first React project. It is a simple and easy to use weather app that takes in the user’s location and gives the weather for that day and for the following week. I made a minimalistic and user friendly UI by using bootstrap to design the website.",
             "img" : "WeatherForecast",
             "urlWebsite" : "https://mihirmulay2001.github.io/My-Weather-App/",
             "urlSource" : "https://github.com/MihirMulay2001/My-Weather-App",

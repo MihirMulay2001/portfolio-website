@@ -4,13 +4,15 @@ import Button from '../../components/Button'
 import ecommercewebsite from '../../assets/img/ecommerce.png'
 import portfoliowebsite from '../../assets/img/portfolio.png'
 import weatherwebsite from '../../assets/img/weatherforecast.png'
+import todowebsite from '../../assets/img/todoapp.png'
 import FadeInWhenVisible from '../../components/Animation_fadein'
 
 
 const projectImg = {
     "Portfolio Website": portfoliowebsite,
     "E-commerce Website" : ecommercewebsite,
-    "Weather forecast" : weatherwebsite
+    "Weather forecast" : weatherwebsite,
+    "Todo App": todowebsite
 }
 
 

@@ -10,8 +10,9 @@ export default function Index({theme}) {
                     <div>Hello there! I am</div>
                     <div className={styles.name}>Mihir Mulay</div>
                     <div className={styles.brief}>
-                        Frontend web developer, 
-                        dog lover and meme lord.
+                        Software developer, 
+                        Tech enthusiast and <br /> 4 times winner of World
+                        Sarcasm Championship, Egypt.
                     </div>
                 </div>
                 <div className={styles.mypic}>
