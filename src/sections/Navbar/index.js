@@ -24,8 +24,8 @@ export default function Navbar({theme, setTheme}) {
                     <li><a href="#awards">Awards</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li className={styles.resume}>
-                        <a href={myresume} download>
-                            <i className="fas fa-file-download"></i>
+                        <a href={myresume} target="_blank" rel="noreferrer noopener">
+                            <i className="fas fa-file"></i>
                             My resume
                         </a>
                     </li>
